@@ -1,0 +1,11 @@
+----1----
+What happens when you initialize a repository? Why do you need to do it?
+
+Catalog .dir is created with some meta-data. That's how I start using GIT.
+
+
+----2----
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Working directory is local and non-saved by GIT, repository contains commits and history of changing them. Staging area is place where files are putted before commiting, files which are in there will be saved in commit.
+
