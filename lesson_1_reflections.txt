@@ -1,0 +1,42 @@
+------1------
+How did viewing a diff between two versions help you spot the bug?
+
+It was helpfull because 'FC' command showed me only lines which were changed. It was pretty obvious that only on those lines were bugs because old version worked well.
+
+
+------2------
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+I can compare versions and see what kind of changes I made. If there would be a mistake I easily can just restore older version.
+
+
+------3------
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros: Commit has a logical sense, program will work 'cause all the important lines are included.
+Cons: I might sometimes forget to commit and it doesn't look easy to person reading it. Or logical change for me at the moment might won't be logical after some time
+
+
+------4------
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git finds important the fact that one file can relate much to the other one. When one file changes other might be changed as well.
+
+
+------5-------
+How can you use the commands git log and git diff to view the history of files?
+
+'git log' shows id's and short notes about commits. 
+'git diff' shows differences between commits, added or deleted lines.
+
+
+------6-------
+How might using version control make you more confident to make changes that could break something?
+
+I'm checking one by one every commit with 'git checkout commit_id". When first commit with bug is a head it means in this commit has a bug. Then I check what lines was changed and find a solution to get rid of the bug.
+
+
+------7-------
+Now that you have your workspace set up, what do you want to try using Git for?
+
+For next app. It will help me finding bugs in code. And show me step by step what I've learn to do.
