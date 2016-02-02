@@ -7,4 +7,10 @@ When I'm not using same computer, some people are working on the same project.
 ----2----
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
-It wouldn't be efficent to do it automatically.
+It wouldn't be efficent to do it automatically. If I don't finish  my f.e. whole new future yet I don't want this to be seen by everybody. I made some commits but I haven't done my new feauture yet.
+
+
+----3----
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Fork should be used when we don't need to make changes on somebodies repository, clone when would be pushed (if I hava authorisation) would change somebodies repository. Branch is pretty different from those two... I don't know right now how to compare those.
