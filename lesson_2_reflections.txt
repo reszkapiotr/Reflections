@@ -9,3 +9,38 @@ How is the staging area different from the working directory and the repository?
 
 Working directory is local and non-saved by GIT, repository contains commits and history of changing them. Staging area is place where files are putted before commiting, files which are in there will be saved in commit.
 
+-----
+git diff - compares working directory with staging area
+git diff --staged - compares staging area with repository (last commit)
+git reset --hard - deletes changes in staging area AND in working directory
+-----
+
+----3----
+How can you use the staging area to make sure you have one commit per logical change?
+Just by using git diff, I can see what kind of change I've made and decide if it's one logical change.
+
+
+----4----
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Would be helpful when I'd like to make some changes but I'm not sure about them. Another branch isn't main branch (master) so I wouldn't be afraid to work on some experimental changes.
+
+
+----5----
+How do the diagrams help you visualize the branch structure?
+
+Shows which commits are in branch, shows parents of them, which commits are 'reachable' (in the branch).
+
+
+----6----
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches together results with combining code from two branches, some lines are deleted, some stays as they were, some are added. 
+We represent it in diagram because it's easier to understand, we don't exactly know when commits were made so we don't care about putting them parent before son. Name of branch is deleted so it won't get confusing (that doesn't mean that commits are deleted.
+
+
+----7----
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+pros: less work, Git makes what need to be made for us
+cons: might happen situation where Git takes two changes as same while they really are not.
