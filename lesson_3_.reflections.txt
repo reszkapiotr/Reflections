@@ -20,3 +20,10 @@ Fork should be used when we don't need to make changes on somebodies repository,
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 In this case commits locally are more updated, it's easier to merge afer (local - remote).
+
+
+----5----
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Harder: finding bugs, understanding which part of the project is whom, deciding about adding some code performed by somebody
+Easier: nothing (?)
