@@ -14,3 +14,9 @@ It wouldn't be efficent to do it automatically. If I don't finish  my f.e. whole
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
 Fork should be used when we don't need to make changes on somebodies repository, clone when would be pushed (if I hava authorisation) would change somebodies repository. Branch is pretty different from those two... I don't know right now how to compare those.
+
+
+----4----
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+In this case commits locally are more updated, it's easier to merge afer (local - remote).
